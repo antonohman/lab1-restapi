@@ -1,12 +1,28 @@
-GET http://localhost:3000/users
+GET http://localhost:3000/api/users
 
-GET http://localhost:3000/users/1
+###
 
-POST http://localhost:3000/users
-Content-Type: application/json
+POST http://localhost:3000/api/users
+Content-Type: application/json 
 
-{   
-    "id": 3,
-    "name": "Pelle",
-    "age": 55
+{
+    "id": 5,
+    "name": "Ivar",
+    "age": 29,
+    "food": "Kebab"
 }
+
+###
+
+PUT http://localhost:3000/api/users/1
+Content-Type: application/json 
+
+{
+    "name": "Ny Anton",
+    "age": 80,
+    "food": "Uppdaterad mat"
+}
+
+###
+
+DELETE http://localhost:3000/api/users/4
