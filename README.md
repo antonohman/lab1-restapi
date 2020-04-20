@@ -28,4 +28,4 @@ Git & GitHub har använts - UPPFYLLT
 Projektmappen innehåller en README.md fil - (läs ovan för mer info) - UPPFYLLT
 Uppgiften lämnas in i tid! - UPPFYLLT
 
-Repo: https://github.com/antonohman
+Repo: https://github.com/antonohman/lab1-restapi
